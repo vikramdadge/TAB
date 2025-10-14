@@ -1,0 +1,34 @@
+
+*, *::after, *::before{
+    padding:0;
+    margin:0;
+    box-sizing: boredr-box;
+}
+
+.tabHeading{
+list-style: none;
+display: flex;
+background-color: #333;
+}
+
+
+.tabHeading li {
+    flex-grow: 1;
+    color:#fff;
+    padding:10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.tabHeading li.active{
+    background-color: rgb(255, 0, 136);
+}
+
+.tabcontent .card{
+    display: none;
+}
+
+
+.tabcontent .card.active{
+    display: block;
+}
